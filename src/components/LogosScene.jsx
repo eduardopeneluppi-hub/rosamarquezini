@@ -69,7 +69,7 @@ function LogosScene() {
           </motion.div>
 
           <motion.div
-            className="absolute top-[22%] left-[39%] flex -translate-x-1/2 items-center gap-4"
+            className="absolute top-[22%] left-[41%] flex -translate-x-1/2 items-center gap-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
