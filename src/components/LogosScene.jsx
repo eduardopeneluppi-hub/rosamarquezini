@@ -69,7 +69,7 @@ function LogosScene() {
           </motion.div>
 
           <motion.div
-            className="absolute top-[20%] left-[34%] flex -translate-x-1/2 items-center gap-4"
+            className="absolute top-[20%] left-[37%] flex -translate-x-1/2 items-center gap-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
@@ -79,7 +79,7 @@ function LogosScene() {
                 key={logo.src}
                 src={logo.src}
                 alt={logo.alt}
-                className="h-20 w-20 rounded-xl bg-white object-contain p-1.5 shadow-lg"
+                className="h-[5.5rem] w-[5.5rem] rounded-xl bg-white object-contain p-1.5 shadow-lg"
               />
             ))}
           </motion.div>
