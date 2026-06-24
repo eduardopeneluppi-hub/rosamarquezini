@@ -64,7 +64,7 @@ function LogosScene() {
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           >
             <span className="inline-block rounded-2xl border border-white/40 bg-white/30 px-4 py-3 font-sans text-base font-semibold leading-snug text-[#3a2f23] shadow-md backdrop-blur-md">
-              a Dra. Rosa Maria Marquezini é membro oficial dos times:
+              a Dra. Rosa Maria Marquezini é membro titular dos times:
             </span>
           </motion.div>
 
