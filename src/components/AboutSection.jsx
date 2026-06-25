@@ -80,7 +80,7 @@ function AboutSection() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="font-sans text-[0.91rem] leading-snug font-medium text-[#1f1a16]">
-            <span className="font-semibold text-[#0d0a14]">Procedimentos:</span> ela
+            <span className="text-[1.05rem] font-semibold text-[#0d0a14]">Procedimentos:</span> ela
             realiza cirurgias faciais e corporais, como facelift, blefaroplastia
             (pálpebras), lipo de papada, abdominoplastia, mamoplastia e
             lipoaspiração.
