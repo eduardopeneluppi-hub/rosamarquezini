@@ -20,7 +20,7 @@ function LogosScene() {
     <motion.div
       className="absolute inset-0"
       onViewportEnter={handleEnter}
-      viewport={{ amount: 0.5 }}
+      viewport={{ amount: 1 }}
     >
       <AnimatePresence>
         {(stage === 'intro' || stage === 'settled') && (
