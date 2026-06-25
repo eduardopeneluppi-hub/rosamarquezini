@@ -51,8 +51,11 @@ function InstagramModal({ open, onClose }) {
             </div>
 
             <img
-              src="/images/iphone-instagram.png"
+              src="/images/iphone-instagram.webp"
               alt="Perfil no Instagram da Dra. Rosa Marquezini"
+              loading="eager"
+              decoding="sync"
+              fetchPriority="high"
               className="mx-auto mt-5 w-[70%] max-w-[220px]"
             />
 
